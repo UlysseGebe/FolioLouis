@@ -1,0 +1,21 @@
+#Loader {
+    background-image: url(../../assets/images/bg/group-4.svg);
+    background-color: #0e2439;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Loader .logo {
+    background-image: url(../../assets/images/logo/white-logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 261px;
+    height: 228px;
+}

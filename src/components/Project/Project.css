@@ -1,0 +1,68 @@
+.section > * {
+    width: 100%;
+    height: calc(100vh - 82px) !important;
+}
+
+.section .content {
+    background-image: url(../../assets/images/bg/group-4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: calc(100% - 40px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.section .content .text {
+    width: 50%;
+    text-align: start;
+    padding-left: 100px;
+}
+.section .content .text.no-image { width: 65%; }
+
+.section .content .text h1 {
+    font-family: BigCaslon;
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 1;
+    color: #ffffff;
+    margin: 0;
+}
+
+.section .content .text p {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.section .content .text button {
+    width: 216px;
+    height: 59px;
+    border-radius: 5px;
+    background: none;
+    border: solid 1px #ffffff;
+    font-family: Montserrat;
+    font-size: 15px;
+    letter-spacing: -0.36px;
+    color: #ffffff;
+
+}
+
+.section .content .mockup {
+    width: 268px;
+    height: 563px;
+    border-radius: 24px;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.2);
+    background-color: #1d1d1d;
+    margin-right: 213px;
+}

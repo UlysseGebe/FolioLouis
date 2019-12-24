@@ -1,0 +1,36 @@
+#Header {
+    width: calc(100% - 80px);
+    height: 82px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0 40px;
+    top: 0;
+    z-index: 9;
+}
+
+#Header .logo {
+    background-image: url(../../assets/images/logo/black-logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 47px;
+    height: 42px;
+    margin: 6px;
+}
+
+#Header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.48px;
+}
+
+#Header nav ul li:not(:last-child) {
+    margin-right: 40px;
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="261" height="228" viewBox="0 0 261 228">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" fill-rule="nonzero" d="M132.35 103c0 13.807 11.193 25 25 25 27.614 0 50 22.386 50 50s-22.386 50-50 50h-100a50 50 0 0 1-50-50V73l25 25v80c0 13.807 11.193 25 25 25h100c13.807 0 25-11.193 25-25s-11.193-25-25-25c-27.614 0-50-22.386-50-50s22.386-50 50-50h30.12l-25.16 25h-5c-13.791.022-24.96 11.208-24.96 25z"/>
+        <path stroke="#FFF" d="M.35 66.04l39 38.99M194.32 46.07l-39.01 39.02M32.57 95.75v2.5l-1.77-1.76"/>
+        <path stroke="#FFF" stroke-dasharray="4.38" d="M27.71 93.39L10.67 76.35"/>
+        <path stroke="#FFF" d="M9.12 74.8l-1.77-1.76v-2.5"/>
+        <path stroke="#FFF" stroke-dasharray="5.22" d="M7.35 65.32v-60"/>
+        <path stroke="#FFF" d="M7.35 2.71V.21l1.77 1.77"/>
+        <path stroke="#FFF" stroke-dasharray="4.38" d="M12.22 5.07l17.04 17.04"/>
+        <path stroke="#FFF" d="M30.8 23.66l1.77 1.77v2.5"/>
+        <path stroke="#FFF" stroke-dasharray="5.22" d="M32.57 33.14v60.01"/>
+        <path stroke="#FFF" d="M164.81 78.09h-2.5l1.77-1.76"/>
+        <path stroke="#FFF" stroke-dasharray="4.91" d="M167.56 72.86l19.91-19.85h67.69"/>
+        <path stroke="#FFF" d="M257.62 53.01h2.5l-1.77 1.76"/>
+        <path stroke="#FFF" stroke-dasharray="4.91" d="M254.87 58.24l-19.91 19.85h-67.7"/>
+    </g>
+</svg>

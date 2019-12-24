@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="42" viewBox="0 0 47 42">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#010101" fill-rule="nonzero" d="M23.823 18.54a4.5 4.5 0 0 0 4.5 4.5 9 9 0 0 1 0 18h-18a9 9 0 0 1-9-9v-18.9l4.5 4.5v14.4a4.5 4.5 0 0 0 4.5 4.5h18a4.5 4.5 0 0 0 0-9 9 9 0 1 1 0-18h5.422l-4.53 4.5h-.9a4.5 4.5 0 0 0-4.492 4.5z"/>
+        <path stroke="#010101" stroke-width=".5" d="M.063 11.887l7.02 7.018M34.978 8.293l-7.022 7.023M5.863 17.235v.45l-.319-.317"/>
+        <path stroke="#010101" stroke-dasharray=".788" stroke-width=".5" d="M4.988 16.81L1.92 13.743"/>
+        <path stroke="#010101" stroke-width=".5" d="M1.642 13.464l-.319-.317v-.45"/>
+        <path stroke="#010101" stroke-dasharray=".94" stroke-width=".5" d="M1.323 11.758V.958"/>
+        <path stroke="#010101" stroke-width=".5" d="M1.323.488v-.45l.319.318"/>
+        <path stroke="#010101" stroke-dasharray=".788" stroke-width=".5" d="M2.2.913L5.267 3.98"/>
+        <path stroke="#010101" stroke-width=".5" d="M5.544 4.259l.319.318v.45"/>
+        <path stroke="#010101" stroke-dasharray=".94" stroke-width=".5" d="M5.863 5.965v10.802"/>
+        <path stroke="#010101" stroke-width=".5" d="M29.666 14.056h-.45l.318-.317"/>
+        <path stroke="#010101" stroke-dasharray=".884" stroke-width=".5" d="M30.16 13.115l3.585-3.573h12.184"/>
+        <path stroke="#010101" stroke-width=".5" d="M46.372 9.542h.45l-.319.317"/>
+        <path stroke="#010101" stroke-dasharray=".884" stroke-width=".5" d="M45.877 10.483l-3.584 3.573H30.107"/>
+    </g>
+</svg>
