@@ -9,6 +9,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 99;
+    position: sticky;
+    transition-property: opacity;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in;
 }
 
 #Loader .logo {
@@ -19,3 +24,8 @@
     width: 261px;
     height: 228px;
 }
+
+#Loader.remove {
+    opacity: 0;
+}
+

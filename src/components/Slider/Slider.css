@@ -6,7 +6,7 @@
 }
 
 #fp-nav {
-    z-index: 999;
+    z-index: 9;
     position: fixed;
     right: 40px;
     top: calc(50% + 62px); /* 62 -> 86 - (40/2) */
