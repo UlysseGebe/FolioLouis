@@ -8,24 +8,42 @@ import 'aos/dist/aos.css';
 import Project from '../Project/Project'
 import slider from "../../data/Slider"
 
-const navigation = () => {
-    let title = ['Home', 'Septembre 2019', 'August 2019']
+const navigation = (array) => {
+    let title = array
     const items = document.querySelectorAll('#fp-nav ul li a')
     for (let i = 0; i < items.length; i++) {
         let content = items[i].querySelector('.fp-sr-only')
         let html = '<legend>'+title[i]+'</legend>'
-        content.innerHTML = html+'•'
-        console.log(content)
+        content.innerHTML = '•'
+        items[i].innerHTML = html + content.outerHTML
     }
+}
+
+const current = () => {
+    const items = document.querySelectorAll('#fp-nav ul li')
+    const link = document.querySelectorAll('#fp-nav ul li a')
+    for (let i = 0; i < items.length; i++) {
+        let index = items[i].querySelector('.active')
+        if (index === link[i]) {
+            return i
+        }
+    }
+}
+
+const loop = () => {
+    requestAnimationFrame(loop)
+    console.log(current());
 }
 
 class Slider extends React.Component {
     componentDidMount() {
+        let title = ['Home', 'Septembre&nbsp2019', 'August&nbsp2019']
+
         new fullpage('.fullpage', {
-            autoScrolling:true,
             scrollHorizontally: true,
             navigation: true,
             showActiveTooltip: true,
+            anchors: title,
         });
 
         AOS.init({
@@ -51,7 +69,10 @@ class Slider extends React.Component {
           
         });
 
-        navigation()
+        navigation(title)
+
+        loop()
+
     }
     render() {
         return (
