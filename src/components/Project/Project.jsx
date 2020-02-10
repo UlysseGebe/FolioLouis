@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css'
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Project extends React.Component {
     state = {
@@ -13,7 +13,7 @@ class Project extends React.Component {
                     <div className={this.props.image !== false ? "text" : "text no-image"}>
                         <h1>{this.props.title}</h1>
                         <p>{this.props.text}</p>
-                        <Router path="/project"><button>{this.props.button}</button></Router>
+                        <Link to="/project"><button>{this.props.button}</button></Link>
                     </div>
                     {this.state.img !== false ? <div className="mockup" ><img src={this.state.img} alt=""/></div> : null }
                 </div>

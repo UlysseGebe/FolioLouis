@@ -7,33 +7,43 @@
     overflow: hidden;
 }
 
-.fp-tableCell {
+.fullpage-wrapper {
     height: fit-content !important;
 }
 
 
 #fp-nav {
-    z-index: 9;
+    z-index: 1 !important;
     position: fixed;
-    right: 40px;
-    top: calc(50% + 62px); /* 62 -> 86 - (40/2) */
-    transform: translateY(-50%);
+    right: 70px !important;
+    top: calc(50% + 62px);
+    transform: translateY(-50%) !important;
 }
 
 #fp-nav ul {
     list-style: none;
     margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+#fp-nav ul li {
+    margin: 0 !important;
+    width: fit-content !important;
+    height: fit-content !important;
+}
 #fp-nav ul li a {
+    margin: 0 !important;
     color: #ffffff;
     text-decoration: none !important;
+    width: fit-content !important;
+    height: fit-content !important;
 }
 
-#fp-nav ul li a span {
-    display: block;
+#fp-nav ul li a div {
     text-align: center;
-    opacity: 0.5;
 }
 
 #fp-nav ul li a legend {

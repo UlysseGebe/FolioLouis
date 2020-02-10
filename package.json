@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.17",
     "@reach/router": "^1.2.1",
     "aos": "^2.3.4",
     "fullpage.js": "^3.0.8",

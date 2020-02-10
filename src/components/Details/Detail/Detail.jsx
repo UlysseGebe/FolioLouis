@@ -1,6 +1,6 @@
 import React from 'react';
 import './Detail.css'
-import Images from './Images/Images'
+// import Images from './Images/Images'
 
 class Detail extends React.Component {
 

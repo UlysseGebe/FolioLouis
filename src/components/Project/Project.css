@@ -5,10 +5,14 @@
     background-position: center;
 }
 
+.section .fp-tableCell {
+    vertical-align: unset;
+    overflow: hidden;
+}
+
 .section .content {
     width: 100%;
     height: calc(100vh - 122px) !important;
-    overflow: hidden;
     display: flex;
     flex-direction: row;
     align-items: center;
