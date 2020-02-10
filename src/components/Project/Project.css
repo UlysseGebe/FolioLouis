@@ -1,15 +1,13 @@
-.section > * {
-    width: 100%;
-    height: calc(100vh - 82px) !important;
+.section {
+    background-image: url(../../assets/images/bg/group-4.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
 }
 
 .section .content {
-    background-image: url(../../assets/images/bg/group-4.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     width: 100%;
-    height: calc(100% - 40px);
+    height: calc(100vh - 122px) !important;
     overflow: hidden;
     display: flex;
     flex-direction: row;

@@ -1,0 +1,107 @@
+.Presentation {
+    height: calc(100vh - 122px);
+    background-image: url(../../../assets/images/bg/group-4.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Presentation .text {
+    margin-left: 136px;
+}
+
+.Presentation h1 {
+    width: fit-content;
+    font-family: BigCaslon;
+    font-size: 100px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    margin: 0 0 60px 0;
+    color: #ffffff;
+}
+
+.Presentation p {
+    width: 692px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 0 0 7px 0;
+}
+
+.Presentation legend {
+    width: fit-content;
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.Presentation .mockup {
+    width: 268px;
+    height: 563px;
+    border-radius: 24px;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.2);
+    background-color: #1d1d1d;
+    margin-left: 50px;
+}
+
+.caseStudy {
+    height: calc(100vh - 122px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.caseStudy .text {
+    margin-left: 136px;
+}
+
+.caseStudy h1 {
+    width: fit-content;
+    font-family: BigCaslon;
+    font-size: 100px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.caseStudy p {
+    width: 690px;
+    height: 168px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #000000;
+    text-align: left;
+}
+
+.caseStudy img {
+    width: 335px;
+    height: 140px;
+    margin-left: 140px;
+}

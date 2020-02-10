@@ -1,9 +1,16 @@
-.fullpage {
+.sliderContainer {
     width: calc(100% - 80px);
-    height: calc(100vh - 82px) !important;
+    height: calc(100vh - 122px) !important;
     margin: 0 40px !important;
     top: 82px;
+    position: relative;
+    overflow: hidden;
 }
+
+.fp-tableCell {
+    height: fit-content !important;
+}
+
 
 #fp-nav {
     z-index: 9;

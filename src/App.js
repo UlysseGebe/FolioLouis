@@ -1,7 +1,8 @@
 import React from 'react';
-import Slider from './components/Slider/Slider';
+// import Slider from './components/Slider/Slider';
 import Loader from './components/Loader/Loader';
 import Header from './components/Header/Header';
+import Details from './components/Details/Details';
 import './App.css';
 
 const loader = () => {
@@ -24,7 +25,8 @@ function App() {
     <div className="App">
       <Header />
       <Loader/>
-      <Slider/>
+      {/* <Slider/> */}
+      <Details/>
     </div>
   );
 }
