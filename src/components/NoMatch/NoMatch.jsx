@@ -5,6 +5,9 @@ class NoMatch extends React.Component {
     componentDidMount() {
         document.title = "404";
     }
+    componentWillUnmount() {
+        document.title = ""
+    }
     render() {
         return (
             <div className="NoMatch">

@@ -3,10 +3,6 @@ import './Header.css'
 import { Link } from 'react-router-dom'
 
 class Header extends React.Component {
-    componentDidMount() {
-        document.title = "Folio Louis";
-    }
-
     render() {
         return (
             <header id="Header">

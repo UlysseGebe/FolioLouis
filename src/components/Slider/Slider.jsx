@@ -35,7 +35,11 @@ const Fullpage = () => (
 
 class Slider extends React.Component {
     componentDidMount() {
+        document.title = "Folio Louis";
         navigation(title)
+    }
+    componentWillUnmount() {
+        document.title = ""
     }
     render() {
         return (

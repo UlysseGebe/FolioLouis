@@ -6,6 +6,9 @@ class About extends React.Component {
     componentDidMount() {
         document.title = "Folio Louis - About";
     }
+    componentWillUnmount() {
+        document.title = ""
+    }
     render() {
         const data = detail[0]
         return (

@@ -6,6 +6,9 @@ class Detail extends React.Component {
     componentDidMount() {
         document.title = "Folio Louis - " + this.props.presentation.title;
     }
+    componentWillUnmount() {
+        document.title = ""
+    }
     render() {
         return (
             <div className="Detail">
