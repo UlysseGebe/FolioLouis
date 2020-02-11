@@ -15,6 +15,8 @@
 
 .Presentation h1 {
     width: fit-content;
+    max-width: 703px;
+    text-align: left;
     font-family: BigCaslon;
     font-size: 100px;
     font-weight: 500;
@@ -105,3 +107,18 @@
     height: 140px;
     margin-left: 140px;
 }
+
+.ImageWrapper {
+    margin-top: 15%;
+    position: relative;
+}
+
+.ImageWrapper .screenColor {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.ImageWrapper .screenColor:first-child { top: 1.5%; }
+.ImageWrapper .screenColor:last-child { bottom: -1.5%; }

@@ -1,0 +1,53 @@
+.About {
+    background-image: url(../../assets/images/bg/group-4.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: calc(100vh - 142px);
+    margin-top: 82px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.About .text {
+    width: 455px;
+    text-align: start;
+    padding-left: 216px;
+}
+
+.About .text h1 {
+    font-family: BigCaslon;
+    font-size: 60px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 0 28px 0;
+}
+
+.About .text p {
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 1.27;
+    color: #ffffff;
+    text-align: left;
+    margin: 0 0 46px 0;
+}
+
+.About .text button {
+    width: fit-content;
+    height: fit-content;
+    padding: 20.5px 56.3px;
+    border-radius: 5px;
+    background: none;
+    border: solid 1px #ffffff;
+    font-family: Montserrat;
+    font-size: 15px;
+    letter-spacing: -0.36px;
+    color: #ffffff;
+}
+
+.About img {
+    width: 450px;
+    margin-left: 28px;
+}

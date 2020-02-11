@@ -9,8 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 99;
-    position: sticky;
+    z-index: 999;
+    position: fixed;
+    top: 0;
     transition-property: opacity;
     transition-duration: 500ms;
     transition-timing-function: ease-in;

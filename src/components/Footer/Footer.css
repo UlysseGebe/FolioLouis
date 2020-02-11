@@ -1,0 +1,28 @@
+footer {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+
+footer h4 {
+    font-family: Montserrat;
+    font-size: 20px;
+    letter-spacing: -0.48px;
+    margin: 0 40px;
+}
+
+footer .socialNetwork {
+    margin: 0 20px;
+}
+
+footer .socialNetwork a {
+    margin: 0 20px;
+    opacity: 0.5;
+    font-family: Montserrat;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+}
