@@ -3,6 +3,9 @@ import detail from "../../data/Detail"
 import './About.css'
 
 class About extends React.Component {
+    componentDidMount() {
+        document.title = "Folio Louis - About";
+    }
     render() {
         const data = detail[0]
         return (

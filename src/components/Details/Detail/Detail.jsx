@@ -3,9 +3,10 @@ import './Detail.css'
 import Images from './Images/Images'
 
 class Detail extends React.Component {
+    componentDidMount() {
+        document.title = "Folio Louis - " + this.props.presentation.title;
+    }
     render() {
-        // console.log(this.props.presentation);
-        
         return (
             <div className="Detail">
                 <div className="Presentation" style={{backgroundColor : this.props.primcolor}}>

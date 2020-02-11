@@ -21,7 +21,6 @@ const Fullpage = () => (
       scrollingSpeed = {1000} /* Options here */
       navigation
       showActiveTooltip
-      anchors = {title}
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
